@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleSinglePageApp", "ExampleSinglePageApp\ExampleSinglePageApp.csproj", "{CAF82E47-7A71-468E-9153-F52803CFFC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleSinglePageApp.Tests", "ExampleSinglePageApp.Tests\ExampleSinglePageApp.Tests.csproj", "{DACF4D2B-25DD-4A92-A13B-C8D6BDAC418B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAF82E47-7A71-468E-9153-F52803CFFC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF82E47-7A71-468E-9153-F52803CFFC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF82E47-7A71-468E-9153-F52803CFFC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF82E47-7A71-468E-9153-F52803CFFC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DACF4D2B-25DD-4A92-A13B-C8D6BDAC418B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DACF4D2B-25DD-4A92-A13B-C8D6BDAC418B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DACF4D2B-25DD-4A92-A13B-C8D6BDAC418B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DACF4D2B-25DD-4A92-A13B-C8D6BDAC418B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ECBB36D-727D-4386-B491-2FA31B19834E}
+	EndGlobalSection
+EndGlobal

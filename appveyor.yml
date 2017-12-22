@@ -1,0 +1,15 @@
+version: '{build}'
+image: Visual Studio 2017
+configuration: Release
+pull_requests:
+  do_not_increment_build_number: true
+
+cache:
+  - packages -> **\packages.config
+
+before_build:
+  - ps: nuget restore src/ExampleSinglePageApp.sln
+
+build:
+  project: src/ExampleSinglePageApp.sln
+  verbosity: minimal
